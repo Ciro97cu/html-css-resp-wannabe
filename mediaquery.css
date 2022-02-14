@@ -1,0 +1,63 @@
+@media screen and (max-width: 420px){
+
+    /***** general rule *****/
+    /* star selector */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* text formatting */
+    h1 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 15px;
+    }
+    
+    /* background-color "lezioni" and "why" section */
+    #lezioni, #why {
+        background-color: #f2f2cd;
+    }
+    
+    /* general centering and width for all section */
+    .row {
+        width: 410px;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    
+    /* margin-top between images and txt */
+    #lezioni .row img, #steps .row img, #why .row>.first, #why .row>.second, #why .row>.third {
+        margin-top: 10px;
+    }
+    
+    /* general height images */
+    img {
+        height: 75px;
+    }
+
+    /***** section "lezioni" and "steps" *****/
+
+    #lezioni .row>.left,
+    #lezioni .row>.right, 
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        width: 100%;
+        float: none;
+        font-size: 12px;
+    }
+    
+    /***** section why *****/
+    #why {
+        font-size: 12px;
+    }
+
+    #why .row img {
+        padding: 15px;
+    }
+    
+}
